@@ -1,0 +1,74 @@
+OpenMP parallelism
+
+CPUS:  1
+Pi estimate: 3.14159264558932393996, obtained in 5.369886 seconds
+DONE 
+CPUS:  2
+Pi estimate: 3.14159264958932382683, obtained in 5.381264 seconds
+DONE 
+CPUS:  3
+Pi estimate: 3.14159265092265727048, obtained in 5.434660 seconds
+DONE 
+CPUS:  4
+Pi estimate: 3.14159265158932399231, obtained in 5.433377 seconds
+DONE 
+CPUS:  5
+Pi estimate: 3.14159265198932402541, obtained in 5.790464 seconds
+DONE 
+CPUS:  6
+Pi estimate: 3.14159265225599071414, obtained in 5.768992 seconds
+DONE 
+CPUS:  7
+Pi estimate: 3.14159265244646679349, obtained in 6.007664 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.919424 seconds
+DONE 
+CPUS:  9
+Pi estimate: 3.14159265270043519536, obtained in 6.507947 seconds
+DONE 
+CPUS:  10
+Pi estimate: 3.14159265278932409160, obtained in 6.674017 seconds
+DONE 
+CPUS:  11
+Pi estimate: 3.14159265286205124923, obtained in 6.690296 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265292265743597, obtained in 6.690322 seconds
+DONE 
+CPUS:  13
+Pi estimate: 3.14159265297393952565, obtained in 6.679281 seconds
+DONE 
+CPUS:  14
+Pi estimate: 3.14159265301789547564, obtained in 6.678358 seconds
+DONE 
+CPUS:  15
+Pi estimate: 3.14159265305599078033, obtained in 6.688397 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265308932411642, obtained in 6.709749 seconds
+DONE 
+CPUS:  17
+Pi estimate: 3.14159265311873570070, obtained in 7.724166 seconds
+DONE 
+CPUS:  18
+Pi estimate: 3.14159265314487967657, obtained in 7.752445 seconds
+DONE 
+CPUS:  19
+Pi estimate: 3.14159265316827163161, obtained in 8.693729 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265318932412470, obtained in 9.152930 seconds
+DONE 
+CPUS:  21
+Pi estimate: 3.14159265320837155500, obtained in 9.722797 seconds
+DONE 
+CPUS:  22
+Pi estimate: 3.14159265322568792556, obtained in 9.993913 seconds
+DONE 
+CPUS:  23
+Pi estimate: 3.14159265324149794552, obtained in 10.408030 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265325599035279, obtained in 10.480989 seconds
+DONE 

@@ -1,50 +1,5 @@
 OpenMP parallelism
 
-CPUS:  1
-Pi estimate: 3.14159264958921013999, obtained in 8.671540 seconds
-DONE 
-CPUS:  2
-Pi estimate: 3.14159264958932382683, obtained in 4.424193 seconds
-DONE 
-CPUS:  3
-Pi estimate: 3.14159264958979678184, obtained in 3.086579 seconds
-DONE 
-CPUS:  4
-Pi estimate: 3.14159264959020445573, obtained in 2.346865 seconds
-DONE 
-CPUS:  5
-Pi estimate: 3.14159264959025064101, obtained in 1.915370 seconds
-DONE 
-CPUS:  6
-Pi estimate: 3.14159264959062101141, obtained in 1.614441 seconds
-DONE 
-CPUS:  7
-Pi estimate: 3.14159264959036166331, obtained in 1.388320 seconds
-DONE 
-CPUS:  8
-Pi estimate: 3.14159264959010720020, obtained in 1.263471 seconds
-DONE 
-CPUS:  9
-Pi estimate: 3.14159264958958761582, obtained in 1.191771 seconds
-DONE 
-CPUS:  10
-Pi estimate: 3.14159264958981720994, obtained in 1.071175 seconds
-DONE 
-CPUS:  11
-Pi estimate: 3.14159264958962403114, obtained in 0.977287 seconds
-DONE 
-CPUS:  12
-Pi estimate: 3.14159264958978123872, obtained in 0.916949 seconds
-DONE 
-CPUS:  13
-Pi estimate: 3.14159264958963202474, obtained in 0.912455 seconds
-DONE 
-CPUS:  14
-Pi estimate: 3.14159264958978434734, obtained in 0.861164 seconds
-DONE 
-CPUS:  15
-Pi estimate: 3.14159264958980743998, obtained in 0.791068 seconds
-DONE 
-CPUS:  16
-Pi estimate: 3.14159264958986250704, obtained in 0.743534 seconds
+CPUS:  {16}
+Pi estimate: 3.14159264958986250704, obtained in 0.753393 seconds
 DONE 
