@@ -31,6 +31,11 @@ void init() {
         exit(EXIT_FAILURE);
     }
 
+    if (GROWER_HEIGHT > ROWS/2 || GROWER_WIDTH > COLS/2) {
+        fprintf(stderr, "grower's length is bigger than the size of current state\n");
+        exit(EXIT_FAILURE);
+    }
+
     int height = GROWER_HEIGHT, width = GROWER_WIDTH;
 
     for (i = 0; i < ROWS+2; i++) {
