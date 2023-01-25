@@ -7,14 +7,30 @@
 #define COLS 3000
 #define GEN 5000
 
-// 2D array for the current state of the cells
+// the current state of the cells
 int current[ROWS+2][COLS+2];
-// 2D array for the next state of the cells
+// the next state of the cells
 int next[ROWS+2][COLS+2];
 
 // function to initialize the cells
 void init() {
     int i, j;
+    if (!GROWER_HEIGHT || !GROWER_WIDTH) {
+        fprintf(stderr, "GROWER_HEIGHT or GROWER_WIDTH is unvalid\n");
+        exit(EXIT_FAILURE);
+    }
+
+    if (grower == NULL || !sizeof(grower[0]) || !sizeof(grower[0][0])) {
+        fprintf(stderr, "grower is unvalid\n");
+        exit(EXIT_FAILURE);
+    }
+
+    int rows_num = sizeof(grower)/sizeof(grower[0]), cols_num = sizeof(grower[0])/sizeof(grower[0][0]);
+    if (GROWER_HEIGHT != rows_num || GROWER_WIDTH != cols_num) {
+        fprintf(stderr, "grower's rows_num/cols_num don't match GROWER_HEIGHT/GROWER_WIDTH \n");
+        exit(EXIT_FAILURE);
+    }
+
     int height = GROWER_HEIGHT, width = GROWER_WIDTH;
 
     for (i = 0; i < ROWS+2; i++) {
@@ -24,6 +40,7 @@ void init() {
 
         }
     }
+
     for (i = 0; i < height; i++) {
         for (j = 0; j < width; j++) {
             current[ROWS/2+i][COLS/2+j] = grower[i][j];
@@ -32,7 +49,7 @@ void init() {
 }
 
 
-// function to calculate the next state of the cells
+// calculate the next state of the cells
 void step() {
     int i, j;
     #pragma omp parallel for collapse(2) private(i,j)
@@ -78,15 +95,15 @@ void step() {
 }
 
 int main() {
-    // initialize the cells
     init();
-
-    // iterate the Game of Life for 100 steps
     int i, j;
     int res = 0;
+
+    // iterate the Game of Life
     for (i = 0; i < GEN; i++) {
         step();
     }
+    
     for (i = 1; i <= ROWS; i++) {
         for (j = 1; j <= COLS; j++) {
             if(current[i][j] > 0) {
