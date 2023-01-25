@@ -16,12 +16,12 @@ int next[ROWS+2][COLS+2];
 void init() {
     int i, j;
     if (!GROWER_HEIGHT || !GROWER_WIDTH) {
-        fprintf(stderr, "GROWER_HEIGHT or GROWER_WIDTH is unvalid\n");
+        fprintf(stderr, "GROWER_HEIGHT or GROWER_WIDTH is invalid\n");
         exit(EXIT_FAILURE);
     }
 
     if (grower == NULL || !sizeof(grower[0]) || !sizeof(grower[0][0])) {
-        fprintf(stderr, "grower is unvalid\n");
+        fprintf(stderr, "grower is invalid\n");
         exit(EXIT_FAILURE);
     }
 
