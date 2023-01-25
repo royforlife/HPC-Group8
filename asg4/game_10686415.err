@@ -1,0 +1,120 @@
+CPUS:  1
+
+real	3m26.142s
+user	3m26.113s
+sys	0m0.020s
+CPUS:  2
+
+real	1m44.370s
+user	3m28.701s
+sys	0m0.012s
+CPUS:  3
+
+real	1m12.333s
+user	3m36.925s
+sys	0m0.024s
+CPUS:  4
+
+real	0m54.684s
+user	3m38.687s
+sys	0m0.008s
+CPUS:  5
+
+real	0m44.787s
+user	3m43.877s
+sys	0m0.008s
+CPUS:  6
+
+real	0m37.495s
+user	3m44.887s
+sys	0m0.016s
+CPUS:  7
+
+real	0m32.429s
+user	3m46.912s
+sys	0m0.024s
+CPUS:  8
+
+real	0m29.172s
+user	3m53.192s
+sys	0m0.012s
+CPUS:  9
+
+real	0m27.827s
+user	4m10.329s
+sys	0m0.028s
+CPUS:  10
+
+real	0m25.413s
+user	4m13.959s
+sys	0m0.060s
+CPUS:  11
+
+real	0m23.368s
+user	4m16.703s
+sys	0m0.036s
+CPUS:  12
+
+real	0m21.885s
+user	4m22.387s
+sys	0m0.016s
+CPUS:  13
+
+real	0m21.902s
+user	4m44.516s
+sys	0m0.032s
+CPUS:  14
+
+real	0m20.590s
+user	4m48.087s
+sys	0m0.024s
+CPUS:  15
+
+real	0m19.457s
+user	4m51.668s
+sys	0m0.028s
+CPUS:  16
+
+real	0m18.901s
+user	5m1.701s
+sys	0m0.040s
+CPUS:  17
+
+real	0m32.347s
+user	4m53.860s
+sys	0m1.930s
+CPUS:  18
+
+real	0m30.849s
+user	4m51.006s
+sys	0m1.817s
+CPUS:  19
+
+real	0m29.414s
+user	4m49.074s
+sys	0m1.785s
+CPUS:  20
+
+real	0m28.117s
+user	4m46.782s
+sys	0m2.375s
+CPUS:  21
+
+real	0m26.997s
+user	4m45.951s
+sys	0m2.436s
+CPUS:  22
+
+real	0m26.274s
+user	4m45.448s
+sys	0m2.056s
+CPUS:  23
+
+real	0m25.574s
+user	4m44.994s
+sys	0m2.588s
+CPUS:  24
+
+real	0m24.608s
+user	4m45.507s
+sys	0m2.039s
